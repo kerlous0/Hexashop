@@ -1,0 +1,43 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    gap: 25px;
+}
+
+.post {
+    border: 1px solid #555;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.post:hover {
+    /* background-color: black; */
+    border: 1px solid #6C63FF;
+    transform: scale(1.1);
+}
+
+
+.imageContainer {
+    position: relative;
+    height: 200px;
+}
+
+.image {
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.content {
+    padding: 20px;
+}
+
+.title {
+    font-size: 700;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-size: 18px;
+    color: #999;
+}

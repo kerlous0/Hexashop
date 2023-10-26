@@ -1,0 +1,8 @@
+.logout {
+    background-color: #6C63FF;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
